@@ -1,0 +1,14 @@
+[Unit]
+Description=Fast API APPLICATION
+ 
+[Service]
+ExecStart=/root/Nagarjuna/fastapi_calling_server/calling_final/bin/python3 /root/Nagarjuna/fastapi_calling_server/app.py
+#StandardOutput=syslog
+#StandardError=syslog
+SyslogIdentifier=fastapi
+Restart=always
+RestartSec=2
+  
+[Install]
+WantedBy=multi-user.target
+Alias=fast_api.service

@@ -1,0 +1,116 @@
+warning+message=>id, message,type
+error+message
+info+message
+success+message=>id, message, type
+
+For calls:
+If the call is active then is_active is True
+
+
+
+
+
+global phone
+    phone={
+        "is_active":True,
+        "message":{
+            "type": "waiting",
+            "message":"Starting emergency procedure..."
+        }
+    }    # get contacts
+    contacts=get_contacts()
+    table_entries=get_table_entries()
+    selected_contacts=[]
+    selected_entries=[]
+    for i in contacts:
+        if i["selected"]:
+            selected_contacts.append(i.copy())
+    
+    for i in table_entries["col1"]["entries"]:
+        if i["selected"]:
+            selected_entries.append(
+                {
+                    "heading":table_entries["col1"]["heading"],
+                    "selected":i
+                }
+            )
+
+    for i in table_entries["col2"]["entries"]:
+        if i["selected"]:
+            selected_entries.append(
+                {
+                    "heading":table_entries["col2"]["heading"],
+                    "selected":i
+                }
+            )
+    
+    for i in table_entries["col3"]["entries"]:
+        if i["selected"]:
+            selected_entries.append(
+                {
+                    "heading":table_entries["col3"]["heading"],
+                    "selected":i
+                }
+            )
+    
+    for i in table_entries["col4"]["entries"]:
+        if i["selected"]:
+            selected_entries.append(
+                {
+                    "heading":table_entries["col4"]["heading"],
+                    "selected":i
+                }
+            )
+    
+    for i in table_entries["col5"]["entries"]:
+        if i["selected"]:
+            selected_entries.append(
+                {
+                    "heading":table_entries["col5"]["heading"],
+                    "selected":i
+                }
+            )
+    
+    for i in table_entries["col6"]["entries"]:
+        if i["selected"]:
+            selected_entries.append(
+                {
+                    "heading":table_entries["col6"]["heading"],
+                    "selected":i
+                }
+            )
+    
+    if len(selected_contacts)!=0 and len(selected_entries)!=0:
+        for i in selected_contacts:
+            phone={
+                "is_active":True,
+                "message":{
+                    "type":"waiting",
+                    "message":f"Calling {i['phone']}({i['name']})"
+                }
+            }
+            res=requests.post(gsm_server+"/trigger-emergency",json={"phone":i["phone"],"message":selected_entries})
+            payload=res.json()
+            phone={
+                "is_active":True,
+                "message":{
+                    "type":payload["status"],
+                    "message":payload["message"]
+                }
+            }
+
+     
+    phone={
+        "is_active":True,
+        "message":{
+            "type":"done",
+            "message":"Call sequence complete"
+        }
+    }
+    phone={
+        "is_active":False,
+        "message":None
+    }
+    return {
+        "status":True
+    }

@@ -1,0 +1,14 @@
+[Unit]
+Description=FLASK SERVER APPLICATION
+ 
+[Service]
+ExecStart=/root/Nagarjuna/flask/final_env/bin/python3 /root/Nagarjuna/flask/app.py
+#StandardOutput=syslog
+#StandardError=syslog
+SyslogIdentifier=flaskserver
+Restart=always
+RestartSec=2
+  
+[Install]
+WantedBy=multi-user.target
+Alias=flask_server.service

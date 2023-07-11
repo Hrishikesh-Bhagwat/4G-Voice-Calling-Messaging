@@ -1,0 +1,39 @@
+.contact-item{
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    display: flex;
+}
+.checkbox{
+    height: 17px;
+    width: 17px;
+}
+.checkbox-space{
+    width: 15%;
+    height: 100%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.checkbox-tile-number{
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.checkbox-delete{
+    width: 15%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

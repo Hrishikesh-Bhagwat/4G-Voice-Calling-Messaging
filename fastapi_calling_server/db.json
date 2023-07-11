@@ -1,0 +1,226 @@
+{
+      "callers": [
+            {
+                  "name": "Mrunalini Oka",
+                  "phone": "9920327669",
+                  "id": "0b9f165f-9c89-4b4e-b616-d427ae9dc14c",
+                  "selected": false
+            },
+            {
+                  "name": "Hrishikesh",
+                  "phone": "9326645565",
+                  "id": "5787d4ac-489e-4331-849b-33f5a0d8b4d5",
+                  "selected": false
+            },
+            {
+                  "name": "Residence",
+                  "phone": "2249785468",
+                  "id": "1f57ff82-a392-4b53-b670-27b00d0a01ab",
+                  "selected": false
+            },
+            {
+                  "name": "Lodge",
+                  "phone": "2223829297",
+                  "id": "a08e41b8-a3bf-459a-a319-b42516deab90",
+                  "selected": false
+            },
+            {
+                  "name": "Residence",
+                  "phone": "2222059459",
+                  "id": "03c731fa-4d7a-4969-9eff-b3ecb1daf3bd",
+                  "selected": false
+            },
+            {
+                  "name": "New Res",
+                  "phone": "2226607890",
+                  "id": "b27cc9b8-77c5-4092-988f-a81fbe1243fe",
+                  "selected": false
+            },
+            {
+                  "name": "New res",
+                  "phone": "2224300261",
+                  "id": "e1f3f975-f287-4763-a59b-1a85d304a9a1",
+                  "selected": false
+            },
+            {
+                  "name": "New res",
+                  "phone": "2224302818",
+                  "id": "b2e7ff7d-1742-4062-86ca-9717474583a6",
+                  "selected": false
+            },
+            {
+                  "name": "New",
+                  "phone": "2224447216",
+                  "id": "0dd3b07a-bd48-427e-a355-cc83e9f3bfe2",
+                  "selected": false
+            },
+            {
+                  "name": "New",
+                  "phone": "2228870950",
+                  "id": "f66a677c-229c-46c7-a517-79bf90dc5d42",
+                  "selected": false
+            },
+            {
+                  "name": "Vai",
+                  "phone": "2225328130",
+                  "id": "12694bfe-64ef-44cc-b29b-27e7a4cb6750",
+                  "selected": false
+            },
+            {
+                  "name": "Vijay",
+                  "phone": "8767657167",
+                  "id": "293f2437-7dbc-4270-8e36-39e4219ce8b1",
+                  "selected": true
+            },
+            {
+                  "name": "Mihir",
+                  "phone": "9920322059",
+                  "id": "45390e89-a6a1-41c1-9bfd-a502a95266d1",
+                  "selected": true
+            },
+            {
+                  "name": "Nikhil",
+                  "phone": "9769879303",
+                  "id": "50ef6b2c-5648-4268-ac51-9870384ac2dd",
+                  "selected": true
+            },
+            {
+                  "name": "Hrishikesh",
+                  "phone": "9969180110",
+                  "id": "bcb03532-1147-4678-9a61-e776470dfcd9",
+                  "selected": false
+            },
+            {
+                  "name": "office",
+                  "phone": "8369241588",
+                  "id": "06d26cc3-e252-4467-b7ed-2383f38e1b84",
+                  "selected": true
+            }
+      ],
+      "col1": {
+            "title": "Emergency Plan",
+            "path": "/root/Nagarjuna/fastapi_calling_server/headings/col1.mp3",
+            "items": [
+                  {
+                        "text": "On-site",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col1/db350832-aefb-434e-ab51-535eb2caf139.mp3",
+                        "id": "db350832-aefb-434e-ab51-535eb2caf139",
+                        "selected": false
+                  },
+                  {
+                        "text": "Off-site",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col1/3efdde3a-50dd-4bda-a135-3b2cd9b87e02.mp3",
+                        "id": "3efdde3a-50dd-4bda-a135-3b2cd9b87e02",
+                        "selected": false
+                  },
+                  {
+                        "text": "Mock drill",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col1/df1183db-d525-4c40-8693-367f7acd7faa.mp3",
+                        "id": "df1183db-d525-4c40-8693-367f7acd7faa",
+                        "selected": true
+                  }
+            ]
+      },
+      "col2": {
+            "title": "Level of Emergency",
+            "path": "/root/Nagarjuna/fastapi_calling_server/headings/col2.mp3",
+            "items": [
+                  {
+                        "text": "Level-II Emergency",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col2/87d1b042-d9fe-44c1-84ac-981ec385248b.mp3",
+                        "id": "87d1b042-d9fe-44c1-84ac-981ec385248b",
+                        "selected": false
+                  },
+                  {
+                        "text": "Level-III Emergency",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col2/1e0b1982-c4de-40b5-ace8-bb2362d34216.mp3",
+                        "id": "1e0b1982-c4de-40b5-ace8-bb2362d34216",
+                        "selected": true
+                  }
+            ]
+      },
+      "col3": {
+            "title": "Emergency Location",
+            "path": "/root/Nagarjuna/fastapi_calling_server/headings/col3.mp3",
+            "items": [
+                  {
+                        "text": "Ammonia-1",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col3/d4380705-3b72-42a1-9698-32d9038e87a8.mp3",
+                        "id": "d4380705-3b72-42a1-9698-32d9038e87a8",
+                        "selected": true
+                  },
+                  {
+                        "text": "Urea-1",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col3/18062df1-64fb-4964-a257-ed68848fad5e.mp3",
+                        "id": "18062df1-64fb-4964-a257-ed68848fad5e",
+                        "selected": false
+                  },
+                  {
+                        "text": "Ammonia-2",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col3/e53a219d-1c0e-4569-91a3-6a67d6063751.mp3",
+                        "id": "e53a219d-1c0e-4569-91a3-6a67d6063751",
+                        "selected": false
+                  },
+                  {
+                        "text": "Urea-2",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col3/3c3c640e-3bec-4fcd-a4ab-6966b0cf59fb.mp3",
+                        "id": "3c3c640e-3bec-4fcd-a4ab-6966b0cf59fb",
+                        "selected": false
+                  }
+            ]
+      },
+      "col4": {
+            "title": "Emergency Cause",
+            "path": "/root/Nagarjuna/fastapi_calling_server/headings/col4.mp3",
+            "items": [
+                  {
+                        "text": "Ammonia Leak",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col4/48b0e5d4-cf8d-4047-9289-c9deb39d2a28.mp3",
+                        "id": "48b0e5d4-cf8d-4047-9289-c9deb39d2a28",
+                        "selected": true
+                  },
+                  {
+                        "text": "Chlorine Leak",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col4/e02ec51f-1c1b-423f-b4ba-c0867c2e225d.mp3",
+                        "id": "e02ec51f-1c1b-423f-b4ba-c0867c2e225d",
+                        "selected": false
+                  }
+            ]
+      },
+      "col5": {
+            "title": "Wind Direction Towards",
+            "path": "/root/Nagarjuna/fastapi_calling_server/headings/col5.mp3",
+            "items": [
+                  {
+                        "text": "North",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col5/53c00f1d-311a-4c1e-a661-87c6db3c24f5.mp3",
+                        "id": "53c00f1d-311a-4c1e-a661-87c6db3c24f5",
+                        "selected": false
+                  },
+                  {
+                        "text": "South",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col5/8347ba44-7254-4247-bf1e-90dd6a140eeb.mp3",
+                        "id": "8347ba44-7254-4247-bf1e-90dd6a140eeb",
+                        "selected": true
+                  }
+            ]
+      },
+      "col6": {
+            "title": "Emergency Control Center",
+            "path": "/root/Nagarjuna/fastapi_calling_server/headings/col6.mp3",
+            "items": [
+                  {
+                        "text": "Tech Building",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col6/48cb04eb-b29d-49d8-9933-d0d9a024a165.mp3",
+                        "id": "48cb04eb-b29d-49d8-9933-d0d9a024a165",
+                        "selected": true
+                  },
+                  {
+                        "text": "Bagging Control Room",
+                        "file": "/root/Nagarjuna/fastapi_calling_server/col6/cacb2716-c346-41ca-ad4a-dfd7181e1359.mp3",
+                        "id": "cacb2716-c346-41ca-ad4a-dfd7181e1359",
+                        "selected": false
+                  }
+            ]
+      }
+}

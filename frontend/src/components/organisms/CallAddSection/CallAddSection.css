@@ -1,0 +1,13 @@
+.call-add-section{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 801px) {
+    .call-add-section{
+        height: 150px;
+    }    
+}

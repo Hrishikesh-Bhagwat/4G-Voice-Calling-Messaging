@@ -1,0 +1,6 @@
+.alert-text{
+    height: 140px;
+    width: 100%;
+    overflow-y: hidden;
+    min-height: 140px;
+}
